@@ -1,0 +1,144 @@
+==ROOMS==
+# Descriptions of all the rooms in the game, using the following format:
+# room_id,name,description,color,doors_color
+# '?' means no data
+001,Lobby,the castle's lobby,grey,grey
+002,The Hall,the hall into the darkness,grey,black
+015,The Horror,the room of horror,grey,white
+076,Hell's Gates,exactly what you think,red,black
+077,?,?,blue,yellow
+078,?,?,blue,red
+079,?,?,blue,green
+080,?,?,?,?
+081,?,?,?,?
+082,?,?,?,?
+083,No Man's Land,beware of the evil,gray,red
+084,?,?,black,black
+085,The Frog,?,green,green
+086,The Tiger,?,black,yellow
+087,?,?,?,?
+089,?,?,?,?
+013,Queen Of Hearts,?,pink,red
+008,?,?,white,red
+009,The Corner,try it now,orange,blue
+014,?,?,?,yellow
+340,Earth,?,brown,white
+310,Fire,?,red,yellow
+320,Water,?,blue,white
+050,Air,?,white,grey
+016,?,?,?,?
+006,The Witch,?,black,grey
+007,?,?,?,?
+330,?,?,?,?
+210,BOOM,it hurts,black,red
+099,?,?,?,?
+098,Black Dragon,where the black dragon is keeping her eggs from strangers,yellow,black
+095,The Question,what is your favorite color,blue,red
+096,?,?,?,?
+094,?,?,?,?
+222,The Wizard,?,black,yellow
+223,?,?,?,?
+234,HaHaHa,?,white,white
+235,?,?,?,?
+236,The Hole,?,black,black
+237,?,?,?,?
+666,Hell,where the lava is hot,red,red
+091,The Cat,beware of the smile,grey,blue
+092,?,?,?,?
+093,?,?,?,?
+071,?,?,?,?
+072,Blue Dragon,?,blue,blue
+073,?,?,?,?
+074,?,?,?,?
+075,?,?,?,?
+999,The Treasure,where the king saves all the gold,yellow,orange
+090,?,?,?,?
+
+==POPULATION==
+# room_id,element,vals...
+# Element is: [M]onster, [S]hield, [W]eapon, [L]ife-box, [T]reasure, [K]ey
+# Vals are:
+# Monster: description, life, shield, sword
+# Shield: description
+# Weapon: description
+# Life-box: description, amount
+# Treasure: description, amount
+# Key: description, color
+999,T,a mount of gold,500
+002,T,a coin,1
+013,T,a bag of coins,30
+009,T,a ring,50
+340,T,a ring,80
+223,T,lots of coins,50
+072,T,gold,100
+074,T,gold,30
+071,T,a wallet,50
+093,T,a gold egg,150
+237,T,silver coins,35
+080,T,gold coins,60
+077,T,a diamond,100
+090,T,a ruby,55
+072,M,a huge dragon,30,15,15
+091,M,a smiling cat,7,5,5
+666,M,Satan,25,13,13
+222,M,an old strange wizard,14,10,7
+098,M,a black dragon,20,10,5
+006,M,an old old witch,8,7,6
+013,M,the queen of hearts,13,3,3
+086,M,a tiger,7,7,7
+085,M,a strange frog,20,2,2
+013,M,a cute small green dragon,8,3,3
+015,M,a huge worm,10,4,1
+008,W,a sword
+050,W,a silver sword
+210,W,a bronze sword
+071,W,a knife
+094,W,a gold sword
+091,W,an axe
+081,W,a gold knife
+073,W,a silver hammer
+099,W,a gold hammer
+099,S,a gold shield
+009,S,a helmet
+014,S,a leather shield
+235,S,an iron shield
+080,S,a gold helmet
+002,K,silver key,yellow
+014,K,bronze key,blue
+006,K,the key of wizdom,black
+222,K,just a key,grey
+077,K,a magic key,yellow
+086,K,the key of mind,red
+096,K,a gold key,red
+092,K,the key for all,green
+223,K,an iron key,grey
+098,K,a silver key,brown
+340,L,first-aid box,5
+050,L,a bottle of juice,7
+210,L,a bowl of the youth aqua,6
+007,L,a glass of red wine,3
+072,L,a bottle of blue liquid,3
+006,L,a basket of blue fruit,2
+078,L,a triangle bread,7
+085,L,a floatoing drop of gold wine,8
+
+==MAP==
+# + : Passage
+# o : Open door
+# x : Closed door
+# * : Locked door
+
+001+002o015
+ +       x
+013     008*009
+ x           o
+014     340x310o320
+ *       +       *
+050+016+006x007+330     210                     099+098*095+096x094
+     x           o       x                       *           +  
+	222+223     234+235+236*237                 666     091*092*093
+	     *           o                           x       x
+	071o072x073*074o075                         999     090
+	     +           +                                   x
+		076o077x078*079o080+081+082+083+084*085x086+087+089
+		

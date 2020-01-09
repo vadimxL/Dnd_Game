@@ -1,0 +1,3 @@
+C:/Users/vadim.malinovsky/Desktop/Dnd/cmake-build-debug/CMakeFiles/Dnd.dir
+C:/Users/vadim.malinovsky/Desktop/Dnd/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/vadim.malinovsky/Desktop/Dnd/cmake-build-debug/CMakeFiles/rebuild_cache.dir

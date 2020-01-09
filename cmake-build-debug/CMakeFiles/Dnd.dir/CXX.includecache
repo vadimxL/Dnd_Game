@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/vadim.malinovsky/Desktop/Dnd/Game.cpp
+string
+-
+Game.h
+C:/Users/vadim.malinovsky/Desktop/Dnd/Game.h
+
+C:/Users/vadim.malinovsky/Desktop/Dnd/Game.h
+Player.h
+C:/Users/vadim.malinovsky/Desktop/Dnd/Player.h
+
+C:/Users/vadim.malinovsky/Desktop/Dnd/Misc.h
+
+C:/Users/vadim.malinovsky/Desktop/Dnd/Passage.h
+tr1/memory
+-
+Room.h
+C:/Users/vadim.malinovsky/Desktop/Dnd/Room.h
+
+C:/Users/vadim.malinovsky/Desktop/Dnd/Player.h
+Misc.h
+C:/Users/vadim.malinovsky/Desktop/Dnd/Misc.h
+Room.h
+C:/Users/vadim.malinovsky/Desktop/Dnd/Room.h
+
+C:/Users/vadim.malinovsky/Desktop/Dnd/Room.h
+string
+-
+Passage.h
+C:/Users/vadim.malinovsky/Desktop/Dnd/Passage.h
+Misc.h
+C:/Users/vadim.malinovsky/Desktop/Dnd/Misc.h
+
